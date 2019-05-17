@@ -1,0 +1,13 @@
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-page" transform="translate(-747.000000, -230.000000)">
+            <g id="header" transform="translate(13.000000, 230.000000)">
+                <g id="hamburger" transform="translate(734.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#FFCC00" x="0" y="0" width="40" height="10" rx="5"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#FFEE44" x="0" y="15" width="40" height="10" rx="5"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#77CC22" x="0" y="30" width="40" height="10" rx="5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,31 +1,33 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
+<script>
+  window.$ = require('jquery')
+  window._ = require('jquery')
+</script>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+  @import url('./assets/css/more-tachyons.css');
+  @import url('./assets/css/tachyons.min.css');
+  @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    scroll-behavior: smooth;
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: proximity;
+    scroll-snap-type: y proximity;
+  }
+
+  h1, h2, h3, h4, h5, h6 { font-family: 'Varela Round'; }
+
+  auto-scroll > div {
+    scroll-snap-align: start;
+  }
 </style>
