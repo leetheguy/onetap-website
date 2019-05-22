@@ -1,29 +1,11 @@
-# onetap-vue
+# One Tap Software homepage source code
 
-## Project setup
-```
-yarn install
-```
+There's nothing too special about the code for this site.
+I originally built it with Stencil and Tachyons but switched to Vue and Tachyons after bumping into some Stencil Router issues.
+I'm mostly posting it as a demonstration for my tachyons cheat sheet, which can be found here:
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+[Tachyons Cheat Sheet](https://gist.github.com/leetheguy/053b67ae5eb81bbe81c24f9509cbe1ca)
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+The live version of the One Tap Software website can be found here:
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[One Tap Software](https://onetap.software)
