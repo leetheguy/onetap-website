@@ -15,22 +15,14 @@
       </h3>
       <div class="w-100">
         <div class="w-100 tc varela">
-          <button class="w-100 w-60-ns bn br-pill shadow-1 f2 dib button-reset bg-orange mt3">Get a Free Consultation!</button>
+          <router-link :to="{ name: 'contactSubject', params: { formSubject: 'consultation' }}" class="link white">
+            <button class="w-100 w-60-ns bn br-pill shadow-1 f2 dib button-reset bg-orange mt3">Get a Free Consultation!</button>
+          </router-link>
         </div>
       </div>
       <h2 class="w-100 tc bg-black orange fixed bottom-0 peekaboo">peekaboo</h2>
     </div>
     <div class="vh-10 tc flex flex-column justify-end items-center pb2 bg-black white">
-      <p class="ma0 mb2 orange">
-        built with 🧡 and&nbsp;
-        <a target="_blank" class="orange" href="https://stenciljs.com/">stencil</a>
-        &nbsp;and&nbsp;
-        <a target="_blank" class="orange" href="https://tachyons.io/">tachyons</a>
-      </p>
-      <p class="ma0 mb2 yellow">
-        &nbsp;view on&nbsp;
-        <a target="_blank" class="yellow" href="https://github.com/leetheguy/">github</a>
-      </p>
       <p class="ma0 green">
         &copy; 2016-{{new Date().getFullYear()}}
       </p>

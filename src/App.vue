@@ -6,7 +6,7 @@
 
 <script>
   window.$ = require('jquery')
-  window._ = require('jquery')
+  window._ = require('lodash')
 </script>
 
 <style>
@@ -19,15 +19,7 @@
     padding: 0px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     scroll-behavior: smooth;
-
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: proximity;
-    scroll-snap-type: y proximity;
   }
 
   h1, h2, h3, h4, h5, h6 { font-family: 'Varela Round'; }
-
-  auto-scroll > div {
-    scroll-snap-align: start;
-  }
 </style>
